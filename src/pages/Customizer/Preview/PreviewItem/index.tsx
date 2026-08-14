@@ -51,7 +51,7 @@ const PreviewItem = ({ category, ...props }: PreviewItemProps) => {
 						decoding="async"
 						width={300}
 						height={300}
-						className="text-foreground absolute z-3 bg-transparent! w-full opacity-0 transition-all md:h-auto md:w-full md:max-w-none"
+						className="text-foreground absolute z-3 bg-transparent! w-full opacity-0 transition-all md:h-auto md:w-full md:max-w-none "
 						onLoad={(e) => {
 							e.currentTarget.classList.remove("opacity-0");
 						}}

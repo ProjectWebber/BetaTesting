@@ -25,8 +25,9 @@ h3 {
 }
 
 img {
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
+    image-rendering: smooth;
+    pointer-events: none;
+
 }
 
 @theme {
@@ -148,9 +149,7 @@ img {
     background: #707070;
 }
 
-img {
-    pointer-events: none;
-}
+
 
 @keyframes loadingAnimation {
     0% {
